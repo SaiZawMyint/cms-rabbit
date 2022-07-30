@@ -1,0 +1,73 @@
+*{margin: 0;padding: 0;}
+.editor-obj{
+	width: fit-content;
+	float: right;
+	height: fit-content;
+	margin-bottom: -40px;
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.icon{
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	cursor: pointer;
+	margin:5px;
+}
+/*.icon:hover{
+	background-color: #0000006d;
+}*/
+.img{
+	float: left;
+}
+.close{
+	background: url(/Rabbit/source/Img/delete.png) no-repeat;
+	background-size: 80% 80%;
+	background-position: center;
+	background-color: #0000004d;
+}
+.help{
+	background: url(/Rabbit/source/Img/tips.png) no-repeat;
+	background-size: 80% 80%;
+	background-position: center;
+	background-color: #0000004d;
+}
+.Script{
+	background: url(/Rabbit/source/Img/code.png) no-repeat;
+	background-size: 80% 80%;
+	background-position: center;
+	background-color: #0000004d;
+}
+.copy{
+	background: url(/Rabbit/source/Img/copy.png) no-repeat;
+	background-size: 80% 80%;
+	background-position: center;
+	background-color: #0000004d;
+}
+.styleSheet{
+	background: url(/Rabbit/source/Img/colorPlate.png) no-repeat;
+	background-size: 80% 80%;
+	background-position: center;
+	background-color: #0000004d;
+}
+.hide-editor{
+	background: url(/Rabbit/source/Img/menu_close.png) no-repeat;
+	background-size: 80% 80%;
+	background-position: center;
+	background-color: #0000004d;
+}
+.hide{
+	background: url(/Rabbit/source/Img/menu.png) no-repeat;
+	background-size: 80% 80%;
+	background-position: center;
+	background-color: #0000004d;
+}
+.x-editor{
+	background: rgba(0, 0, 0, 0.184);
+    float: left;
+    width: 100%;
+    min-height: 40px;
+}

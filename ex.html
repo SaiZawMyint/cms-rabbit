@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example</title>
+	<style type="text/css">
+		*{margin: 0;padding: 0;}
+		#field{
+			position: absolute;
+			width: 50%;
+			height: 50%;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			border: 2px solid red;
+			overflow: hidden;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="./css/editor.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<script type="text/javascript" src="/Rabbit/js/index.js"></script>
+	<script type="text/javascript" src="\JNine-itech\cms-web-design-texteditor\JS/jnine-texteditor.js"></script>
+</head>
+<body>
+<div id="field">
+</div>
+<div id="alert-body">
+		<div id="alert-box">
+			<nav class="a-title">
+				<nav class="a-a close-pre-light" id="b-c" onclick="cancelA()"></nav>
+				<center><h3 id="a-title-f"></h3></center>
+			</nav>
+
+			<nav class="a-body" id="a-body-f"> 
+				
+			</nav>
+			<nav class="a-footer" id="a-footer">
+				<center><nav class="a-ok" id="a-ok-f" onclick="cancelA()">Ok</nav></center>
+			</nav>
+		</div>
+	</div>
+<script type="text/javascript" src="./js/editorFunction.js"></script>
+</body>
+</html>
